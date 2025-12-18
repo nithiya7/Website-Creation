@@ -1,0 +1,142 @@
+*{
+	margin:0px;
+	padding:0px;
+	color:white;
+	font-family:arial;
+}
+#container{
+	width:90%;
+	height:auto;
+	border:1px solid black;
+	margin:auto;
+}
+header{
+	width:100%;
+	height:150px;
+	border-bottom:1px solid black;
+	background-image:url(banner_bg.jpg);
+	background-size:100% 100%;
+}
+header img{
+	margin:30px 0px 0px 30px;
+}
+form{
+	float:right;
+	margin:70px 30px 0px 0px;
+}
+input{
+	padding:8px;
+	border:2px solid black;
+	background-color:transparent;
+}
+input::placeholder{
+	color:white;
+}
+nav{
+	width:100%;
+	height:40px;
+	border-bottom:1px solid black;
+	background-color:black;
+}
+nav ol li{
+	display:inline-block;
+	width:140px;
+	text-align:Center;
+	padding-top:12px;
+	padding-bottom:10px;
+	font-weight:bold;
+}
+nav ol li:hover{
+	background-color:#575757;
+	cursor:pointer;
+	border-radius:30px;
+}
+#submenu{
+	position:absolute;
+	background:Black;
+	margin-top:10px;	
+	display:none;
+}
+#submenu li{
+	display:block;
+}
+li:hover #submenu{
+	display:block;
+	border-radius:30px;
+}	
+#sec1{
+	width:100%;
+	height:450px;
+	border-bottom:1px solid black;
+	display:flex;
+	background-color:#5A5858;
+}
+aside{
+	width:25%;
+	height:450px;
+}
+#info{
+	width:50%;
+	height:450px;
+	border-left:1px solid black;
+	border-right:1px solid black;
+}
+aside h4{
+	color:#FBBC53;
+	margin:30px 0px 10px 20px;
+}
+aside div{
+	margin:20px 15px 0px 20px;
+}
+aside ul li{
+	list-style:url(list_icon.jpg) inside;
+	margin:3px 0px 0px 20px;
+}
+#info img{
+	border:3px solid #CCCCCC;
+	margin:30px 20px 20px 15px;
+}
+#info h4{
+	color:#FBBC53;
+	margin:0px 0px 20px 15px;
+}
+#info p{
+	margin:20px 20px 0px 15px;
+}
+#sec2{
+	width:100%;
+	height:300px;
+	border-bottom:1px solid black;
+	display:flex;
+	background-color:#5A5858;
+}
+#sec2 article{
+	width:25%;
+	height:300px;
+}
+#sec2 img{
+	border:3px solid #CCCCCC;
+	margin:30px 20px 10px 20px;
+}
+#sec2 p{
+	margin:0px 20px 10px 20px;
+}
+a{
+	color:#E2C43F;
+}
+footer{
+	width:100%;
+	height:150px;
+	background-color:#343233;
+	background-image:url(footer.jpg);
+	background-repeat:no-repeat;
+	text-align:center;
+}
+footer ol{
+	margin-left:35px;
+}
+footer ol li{
+	display:inline-block;
+	padding-top:30px;
+	margin:0px 7px 20px 7px;
+}
